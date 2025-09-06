@@ -1,3 +1,51 @@
-## Task 1 - 
+# Task 1 - 
 Answer can be found in the 4th line of the .eml file extracted by unzipping PhishNet.zip 
 X-Originating-IP: [45.67.89.10]
+
+# Task 2 -
+Answer can be found in the 15th line of the same .eml file
+Received: from mail.business-finance.com ([203.0.113.25])
+
+# Task 3 -
+Answer can be found in the 1st line of the same .eml file
+Return-Path: <finance@business-finance.com> 
+
+# Task 4 -
+Answer can be found in the 2nd line of the .eml file
+Reply-To: <support@business-finance.com> 
+
+# Task 5 -
+Answer can be found in the 7th line of the same .eml file
+Received-SPF: Pass
+
+# Task 6 -
+Answer can be found in the 55th line of the .eml file
+<p><a href="https://secure.business-finance.com/invoice/details/view/INV2025-0987/payment">Download Invoice</a></p> (secure.business-finance.com)
+
+# Task 7 -
+Answer can be found in the 11th line of the .eml file
+X-Organization: Business Finance Ltd.
+
+# Task 8 -
+Answer can be found in the 65th line of the .eml file
+Content-Type: application/zip; name="Invoice_2025_Payment.zip" (Invoice_2025_Payment.zip)
+
+# Task 9 -
+From the 69th line of the .eml file, copy the base64 code and perform the following steps.
+┌──(kali㉿kali)-[~/Desktop/HTB]
+└─$ echo 'UEsDBBQAAAAIABh/WloXPY4qcxITALvMGQAYAAAAaW52b2ljZV9kb2N1bWVudC5wZGYuYmF0zL3ZzuzIsR18LQN+h62DPujWX0e7' > invoice.txt
+                                                                                                
+┌──(kali㉿kali)-[~/Desktop/HTB]
+└─$ base64 -d invoice.txt > invoice.zip
+                                                                                                
+┌──(kali㉿kali)-[~/Desktop/HTB]
+└─$ sha256sum invoice.zip
+8379c41239e9af845b2ab6c27a7509ae8804d7d73e455c800a551b22ba25bb4a  invoice.zip 
+
+# Task 10 -
+┌──(kali㉿kali)-[~/Desktop/HTB]
+└─$ strings invoice.zip
+invoice_document.pdf.bat
+
+# Task 11 -
+A simple google search reveals that the MITRE ATTACK ID for spearphishing attachment is T1566.001
