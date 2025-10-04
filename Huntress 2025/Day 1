@@ -1,0 +1,8 @@
+Read the Rules - open the rules webpage --> inspect --> use find function (ctrl+F) to search the keyword "flag" --> flag
+Technical Support - head to the #ctf-open-ticket section on their discord --> flag
+Spam Test - find the GTUBE string on google --> Generate MD5 hash using cyberchef --> flag{MD5-hash}
+Cover all your bases - keep pasting each one into dcode.fr/cipher-identifier and use the same website to decode each cipher --> flag
+Just a little bit - paste the binary into cyberchef --> change byte length to 7 --> flag
+QRception - decode the QR using any online decoder --> decoded data contains another qr code when aligned right --> flag
+RFC9309 - connect and head to the website --> enter /robots.txt after the url --> use find function (Ctrl+F) to search the keyword "flag" --> flag
+Verify you are human - 
