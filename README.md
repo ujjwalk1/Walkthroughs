@@ -1,2 +1,2 @@
 # Walkthroughs
-solutions of new THM rooms / HTB sherlocks that do not have a writeup online yet.
+solutions of some THM rooms / HTB sherlocks / CTFs that i participate in.
