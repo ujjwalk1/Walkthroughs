@@ -1,0 +1,6 @@
+Ques 1 - Go to Event Viewer -> application logs/ microsoft/ windows/ terminal services- remote connection manager/ operational -> filter by event id 1149 and check for login by emily -> 2025–06–30 16:33:18
+Ques 2 - Go to Task Scheduler -> Active Tasks -> Info Check -> Check the Actions Tab -> C:\Users\emily.ross\Documents\Coreinfo64.exe
+Ques 3 - Calculate the Hash for Coreinfo64.exe and upload it to VirusTotal -> Win32:Meterpreter-C [Trj] (Meterpreter)
+Ques 4 - Go to File Explorer -> Users/Admin/Documents/20250630/Powershell-transcript -> Copy the Basd64 encoded commands and paste them into CyberChef and decode -> pcd.exe /accepteula -ma lsass.exe text.txt
+Ques 5 - Go to Eric Zimmerman Tools -> Open Registry Explorer -> Click the File Tab/ Live System / System -> PSEXESVC -> 2025-06-30 19:47:14
+Ques 6 -
