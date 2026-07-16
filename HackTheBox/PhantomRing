@@ -1,0 +1,6 @@
+Task 1 - unzip file --> sha256sum "filename" --> 2d7b1b2178f76c26893b2a56cbf9b36700235259e76b893d53817d5b66b634a5
+Task 2 - strings agent --> scroll through to find IP or use grep --> 192.168.56.1
+Task 3 - objdump -d agent --> save to file --> use grep to find --> 4445
+Task 4 - use grep 'sleep' to find recconect interval --> 120
+Task 6 - use grep 'process_cmd' to find commands --> 11
+Task 7 - scroll through strings of agent --> io_uring
