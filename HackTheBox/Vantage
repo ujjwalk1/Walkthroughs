@@ -1,0 +1,11 @@
+Task 1 - Open the web server pcap --> filter by http && ip.src == 117.200.21.26 --> inspect packet data  --> ffuf@2.1.0
+Tas 2 - filter by attacker ip and 200 OK returned on HTTP requests --> filet out to not display the packets with length 596 --> cloud
+Task 3 - from the previous task, the login url can be found --> filter out packets that have the url --> 3
+Task 4 - Go to File Tab --> Export Objects --> HTTP --> 2 files named openrc are found with the same timestamp --> 2025-07-01 09:40:29
+Task 5 - Open the controller pcap --> filter byb http and attacker ip --> 2025-07-01 09:41:44
+Task 6 - filter by attacker ip and packets containing project --> follow http stream of packet 20710 --> 9fb84977ff7c4a0baf0d5dbb57e235c7
+Task 7 - googled it --> keystone
+Task 8 - googled the structure --> Go to Statistics Tab --> HTTP --> Requests --> http://134.209.71.220:8080/v1/AUTH_9fb84977ff7c4a0baf0d5dbb57e235c7
+Task 9 - Use the answer to the previous task as a filter --> Follow HTTP Stream --> 3
+Task 10 - In the same section as task 8 --> find user-details.csv --> choose Follow TCP Stream --> 2025-07-01 09:45:23
+Task 11 - Check the contents of the previous csv file --> 28
